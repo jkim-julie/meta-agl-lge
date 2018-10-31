@@ -14,8 +14,6 @@ RPROVIDES_${PN} += "virtual/webruntime"
 
 SRC_URI = "git://github.com/webosose/${PN}.git;branch=@1.agl;protocol=https"
 
-SRC_URI += "file://0001-Used-new-WindowManager-APIs.patch"
-
 S = "${WORKDIR}/git"
 SRCREV = "${AUTOREV}"
 
